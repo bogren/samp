@@ -8,7 +8,7 @@
 
 import UIKit
 import SkyFloatingLabelTextField
-
+import Font_Awesome
 
 class ViewController: UIViewController {
 
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         
         someTF.iconFont = UIFont(name: "FontAwesome", size: 15)
-        someTF.iconText = "\u{f072}"
+        someTF.iconText = String.fontAwesomeIcon(name: .plane)
         
         // Do any additional setup after loading the view, typically from a nib.
     }

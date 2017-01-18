@@ -4,12 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Font-Awesome-Swift-Font-Awesome-Swift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Font-Awesome-Swift.xcscheme</key>
+		<key>FontAwesome.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>25E0BCBFB9431D156DAEA4F13362CF0C</key>
+		<key>035C8BEE64F7B1AB0690DCE0D887D51F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9735AA72928D41DB06EA697E23930C72</key>
+		<key>3277DEFB855507DFBC0D568F10008C04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C7D108C64EF0FC5CB01BC39965AC324</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA453546C51032641C49CACBC22725EE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C060632326782CB53C13EB0196D25ABB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F1B99AE1D4B01D8F3F4F47C79E2426A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

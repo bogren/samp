@@ -8,8 +8,7 @@ target 'samp' do
   # Pods for samp
 pod 'SkyFloatingLabelTextField', '~> 2.0.0'
 
-pod 'Font-Awesome-Swift', '~> 1.5'
-
+pod 'FontAwesome', '~> 4.5'
   target 'sampTests' do
     inherit! :search_paths
     # Pods for testing

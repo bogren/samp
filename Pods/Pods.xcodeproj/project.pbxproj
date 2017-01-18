@@ -7,129 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F33B4B13BC0DCE6EE7518267C0F46B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E317D90744761F406E685BC46589A /* CoreText.framework */; };
+		048CC9B93DA5736FF23C9D6D08B366ED /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C21EB1D38EC7F4FDC76B3A7FDF5D50 /* FontAwesome.ttf */; };
 		06033F5F7F5A9F4B4A94EA9E41A99BAA /* Pods-sampTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4B0150920A27634770018D8FBB5D2B /* Pods-sampTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13FF943D4C5955649F7214A6C77C2043 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D58DFB101720BE42FC0C5626DEFAE4 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		207D725533423D55A24FA53494476090 /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326C640EA0C895FBA8F34A3CCDDD3AD /* FAIcon.swift */; };
-		22256366F34CB5CBF58224FB43E2362C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773B58C96C3FC58146C8594C318D1282 /* SkyFloatingLabelTextField-dummy.m */; };
+		1F14400B386487E15086C2666E602BB1 /* Pods-samp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A12DD09AF1CF80F3D4A97C10DD37028 /* Pods-samp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2547431EFFE9EDABF1A88913184833E4 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4AB4504B5128D4ED63ED6E99213F71 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2793C02934FE6B49DF7CC021F21B2057 /* Pods-sampUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8944F08FE545D3B103CB32974107A /* Pods-sampUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BF115CB201E1A96E4ECF16D9B386017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */; };
-		2D844CD97CD93C73E5AEE3234A6E3F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		45D00AE9CB121C95E695C4AD7746792A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		4ED3B0D447F982BE0C88A7EFFB8C5DB1 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EE69F582B6ABA49CF77994F888E31 /* SkyFloatingLabelTextField.swift */; };
+		2D844CD97CD93C73E5AEE3234A6E3F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		2F284D0F8424E4202893FD57E5F33C9B /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 738327C4047ED4974AEF6AAB19C2B58E /* NSString+FontAwesome.m */; };
+		3D9A8C83DFBDD9F7E0F2CC5925D049A6 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BA02E64D342A1BD66E8E52AA85E8C /* UITextField+fixCaretPosition.swift */; };
+		3E956B45F194547627970C55AB135610 /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D83FA3E443E1D6F3825089E30745071 /* NSString+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496DAB311543FDD7E60A4C03FF6F9E16 /* UIFont+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF3654FF7A4FAB66AD75BCA495504AA /* UIFont+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4203DDEB52E114D139793685DCDDCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		576CF8447FA6CF42DF112C183AA9EBD1 /* Pods-samp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3311175162D6349182C03FC8F3EE0D09 /* Pods-samp-dummy.m */; };
+		5F549BC045F10998FB41F30C7430F094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		655EDBA2561BEA193160328807BA0249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		6D7CB1251A867268A07F26A86433723F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
 		70671BA98413D50EDAD3B150E0DC32E4 /* Pods-sampUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542E7A41E67215EB9596D60A321421C /* Pods-sampUITests-dummy.m */; };
-		862F6576D6B64D137E1F6E464F9A906E /* Font-Awesome-Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D026AD9EFD398A7650D11CD00D7C59C2 /* Font-Awesome-Swift.bundle */; };
-		881D423A132E0E4784A0F415ADA55CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		94AD925604BA6F2EAFE9BA9810C92959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		A4742149453AD46E590B715335CECF22 /* Font-Awesome-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 401323DECB6BE6954614ECC57F1BA89F /* Font-Awesome-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC24B7BFE64B154BB0EDB1E294D4D9DC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF9647C1215A4FD82E00D6EC201DF95D /* FontAwesome.ttf */; };
-		B5ADBFBB0C6FD91A9A7D17A5E21B24CB /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E102B125E6E3FD9A523B718691ACD0 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9C6C762C8B48FA3A8C00EE1E938D79C /* Pods-samp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3311175162D6349182C03FC8F3EE0D09 /* Pods-samp-dummy.m */; };
+		71E34B3C89532152ABFB07EF187C9877 /* FontAwesome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC12373C8AA61DA97DD1F4B4AE2DC8 /* FontAwesome-dummy.m */; };
+		8844BEE31C6E312E40EEA115DBC0D89E /* FontAwesome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3333AAEBB986D0356EFBDCF7D89A8A9 /* FontAwesome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		989A9F81AC88094899B1F11B4A0D640C /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646FFCF65FD443000FCA606513D0A0E7 /* FAImageView.m */; };
+		A1B0B32EB9D09C930D23FADC99BF5DD6 /* FAImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD2B100F1A16397FA3CB3E9314BFCE7 /* FAImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0EEB2ED4028BD09153E777DE609971E /* Pods-sampTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B090AB521A6BCA2F5B28D26E8B33A647 /* Pods-sampTests-dummy.m */; };
-		CADF2E4CB68C0ABD318A2A4D3C067EFF /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A053A04D9162397C6249F6DB1147AB /* UITextField+fixCaretPosition.swift */; };
-		CD703D7ABAB1084D756D7C991DB0D6C5 /* Pods-samp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A12DD09AF1CF80F3D4A97C10DD37028 /* Pods-samp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7E94390A1CF40ED6C3C620B0BE8B0A0 /* Font-Awesome-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C7F1E3C8E7E96138ACB84657801A1 /* Font-Awesome-Swift-dummy.m */; };
-		FFBE6070E99CA09F19C0B7E8CB2423F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
+		CA759E60F374F6D403B8CA022855C72D /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FA1DCF162F5AD631018E2AA84287 /* SkyFloatingLabelTextField-dummy.m */; };
+		D746F3C665D4929805F03D6AFABD7B5D /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33AE26722C700D84C2E423A0DFD567 /* SkyFloatingLabelTextField.swift */; };
+		DB5F814A9619C8AB5BF83B9ED89704A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		E51FF456C03E98D12BF7E45D1E4D9009 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0A803DD3FB0A1E6D353C83D6E0D25 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		ECD70F8EBC1C1711D58CCE4AEED1CB08 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FA50B1857D682CBB822AAC87BC52F8 /* UIFont+FontAwesome.m */; };
+		FFBE6070E99CA09F19C0B7E8CB2423F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		682BD0987EB17880E3025EFA1CCEBF82 /* PBXContainerItemProxy */ = {
+		1EC6FFFFADB6F21D440D9DEDD3670A2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9735AA72928D41DB06EA697E23930C72;
-			remoteInfo = "Font-Awesome-Swift-Font-Awesome-Swift";
-		};
-		84BE887D7E101D5E212D1539EAF2C29A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1B99AE1D4B01D8F3F4F47C79E2426A1;
+			remoteGlobalIDString = 3277DEFB855507DFBC0D568F10008C04;
 			remoteInfo = SkyFloatingLabelTextField;
 		};
-		CDC2C4A234BA03B3E6BDF9B2DBC42A2B /* PBXContainerItemProxy */ = {
+		53EDFB49BF95C1BD993C61F6764DF3D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA453546C51032641C49CACBC22725EE;
-			remoteInfo = "Font-Awesome-Swift";
+			remoteGlobalIDString = 5C7D108C64EF0FC5CB01BC39965AC324;
+			remoteInfo = FontAwesome;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		060010A5AC66A871F7F385A1F65B6453 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AB9D02CA1B2916199C6C23B2D4EA213 /* Font-Awesome-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Font-Awesome-Swift.modulemap"; sourceTree = "<group>"; };
 		0BF1CEB31FFE8618489F1D4FFB9EDECD /* Pods-sampTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sampTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		19E102B125E6E3FD9A523B718691ACD0 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		1E5A6CF722F62A0114F79B6CC981BD4A /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA50B1857D682CBB822AAC87BC52F8 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
 		24A7E8DFEFF325FD87980340C5B2FBF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2542E7A41E67215EB9596D60A321421C /* Pods-sampUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sampUITests-dummy.m"; sourceTree = "<group>"; };
-		27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		282E317D90744761F406E685BC46589A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		29CF0307ACE3102E778F4C9A9FCC7DCB /* Pods_samp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_samp.framework; path = "Pods-samp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3072FB9F3BF5D2C2C6087ED0BCDDDDE1 /* FontAwesome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.xcconfig; sourceTree = "<group>"; };
 		31076D8088023601A785C086A09B6DA8 /* Pods-samp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-samp.release.xcconfig"; sourceTree = "<group>"; };
 		32E4120AD340EA70DDE262D5D7C62AF8 /* Pods-samp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-samp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3311175162D6349182C03FC8F3EE0D09 /* Pods-samp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-samp-dummy.m"; sourceTree = "<group>"; };
+		34065E9FDD5C9F28C070405416D513AC /* FontAwesome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesome.modulemap; sourceTree = "<group>"; };
 		351A520FFD85A63B402DBEE90E059958 /* Pods-sampUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sampUITests-resources.sh"; sourceTree = "<group>"; };
-		3994AB27F281EC4074040ADB224DEF87 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		39B0FA1DCF162F5AD631018E2AA84287 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		3ED8944F08FE545D3B103CB32974107A /* Pods-sampUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sampUITests-umbrella.h"; sourceTree = "<group>"; };
-		3F88F8AE1C21123022349BCB66E15416 /* Font-Awesome-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Font-Awesome-Swift.xcconfig"; sourceTree = "<group>"; };
 		3FAABD37600DA6469A86196A63518D9E /* Pods-sampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sampTests.release.xcconfig"; sourceTree = "<group>"; };
-		401323DECB6BE6954614ECC57F1BA89F /* Font-Awesome-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Font-Awesome-Swift-umbrella.h"; sourceTree = "<group>"; };
+		450478E56BAFB5BE34EF60DD1F734AAE /* Pods_samp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_samp.framework; path = "Pods-samp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C21EB1D38EC7F4FDC76B3A7FDF5D50 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		4BF447FD91CA2423EBBD9B09A4E89158 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		4C7BA02E64D342A1BD66E8E52AA85E8C /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		4D83FA3E443E1D6F3825089E30745071 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5FEC12373C8AA61DA97DD1F4B4AE2DC8 /* FontAwesome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome-dummy.m"; sourceTree = "<group>"; };
 		63C6FBA64BA5175C14C37E1B1F3CE0B6 /* Pods-sampTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sampTests-resources.sh"; sourceTree = "<group>"; };
+		646FFCF65FD443000FCA606513D0A0E7 /* FAImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
 		651EAFE8C322945C04087573C3C6BBD9 /* Pods-sampUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sampUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66B0A803DD3FB0A1E6D353C83D6E0D25 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		67684872D8DEC534FC0B145FEFC13976 /* Pods-sampTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sampTests.modulemap"; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6A12DD09AF1CF80F3D4A97C10DD37028 /* Pods-samp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-samp-umbrella.h"; sourceTree = "<group>"; };
-		6C41F80209CE87C38A2B9E067FA4858C /* Font_Awesome_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Font_Awesome_Swift.framework; path = "Font-Awesome-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		720093333CC6B109C962FCCA2FF823DF /* Pods-sampTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sampTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		738327C4047ED4974AEF6AAB19C2B58E /* NSString+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
 		742626027227BDF67EE3012EBF4FAAA9 /* Pods-sampTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sampTests-frameworks.sh"; sourceTree = "<group>"; };
-		773B58C96C3FC58146C8594C318D1282 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		8EB70F1BC8452032404B31F036A8AAAE /* Pods_sampTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sampTests.framework; path = "Pods-sampTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AD2B100F1A16397FA3CB3E9314BFCE7 /* FAImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		7D4AB4504B5128D4ED63ED6E99213F71 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		8FD5C2815698CAD9DED3834E14F90D0D /* Pods-sampUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sampUITests-frameworks.sh"; sourceTree = "<group>"; };
-		924EE69F582B6ABA49CF77994F888E31 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		921186B9EBDEC33BE7B2C38FDECC347C /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome.framework; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96A053A04D9162397C6249F6DB1147AB /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		98EBA8329766AB34DECA4E9D6B726553 /* Pods_sampTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sampTests.framework; path = "Pods-sampTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A267B7C7C8F04DDB41A96122FB09FC06 /* Pods-samp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-samp.modulemap"; sourceTree = "<group>"; };
-		A2D58DFB101720BE42FC0C5626DEFAE4 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		AE8B5B763A4F4D58EE5AC63A7FF934CF /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
-		AF9647C1215A4FD82E00D6EC201DF95D /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
 		B090AB521A6BCA2F5B28D26E8B33A647 /* Pods-sampTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sampTests-dummy.m"; sourceTree = "<group>"; };
 		B263BA956925CD8E659F21F66FC7E8B2 /* Pods-sampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sampTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B326C640EA0C895FBA8F34A3CCDDD3AD /* FAIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAIcon.swift; path = Source/FAIcon.swift; sourceTree = "<group>"; };
-		B592572D58CC5DD018D2282A2950D5EA /* ResourceBundle-Font-Awesome-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Font-Awesome-Swift-Info.plist"; sourceTree = "<group>"; };
 		B723A2ECB3FD5D89E347524825734748 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB1560FF7678C1A2A94E916E755442CC /* Pods-sampUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sampUITests.modulemap"; sourceTree = "<group>"; };
-		C19C410A69E6D1800F888600EB4EF1BB /* Font-Awesome-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Font-Awesome-Swift-prefix.pch"; sourceTree = "<group>"; };
-		C5D9C2AD18ADB55BC441F721BA3D9B1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C686EC2C8897E5E79270F60F2B2ADAD6 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		C0678B233332456142E7CBEAC66D3BAB /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		CA4B0150920A27634770018D8FBB5D2B /* Pods-sampTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sampTests-umbrella.h"; sourceTree = "<group>"; };
-		CF2C7F1E3C8E7E96138ACB84657801A1 /* Font-Awesome-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Font-Awesome-Swift-dummy.m"; sourceTree = "<group>"; };
-		D026AD9EFD398A7650D11CD00D7C59C2 /* Font-Awesome-Swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Font-Awesome-Swift.bundle"; path = "Font-Awesome-Swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D10EF0731409955A5F247C69EF9C8F4D /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3333AAEBB986D0356EFBDCF7D89A8A9 /* FontAwesome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome-umbrella.h"; sourceTree = "<group>"; };
 		D3D73D5193EEA33E57346E4A5AA7458F /* Pods-samp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-samp-resources.sh"; sourceTree = "<group>"; };
-		E5BC51780684CCE8F4892439B1B000EA /* Pods_sampUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sampUITests.framework; path = "Pods-sampUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6079884418563D378361478D78EFC46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE33AE26722C700D84C2E423A0DFD567 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		E648D44343282CD2EEF5D0AB5650A321 /* Pods-samp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-samp.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E99FE71E4E9710FE776351C253C1EB /* Pods-sampUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sampUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA4DDFF6C0E3D77035DC62423EFE8586 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		EDEADC6F0B7BA9024393D4F918818B8B /* Pods-sampUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sampUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F06C59BBE86349637ABC6FAA47B5B23B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1A84AB95D28B97EFF12A5334A7DACF2 /* Pods-sampUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sampUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F7AB3A623B8F324F63562F326121534B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A736D1C2D0964C4B203CBED278F34A /* Pods_sampUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sampUITests.framework; path = "Pods-sampUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91B211ED970F9C62DCB17605B973A14 /* Pods-samp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-samp-acknowledgements.plist"; sourceTree = "<group>"; };
 		FBA36A5243FB8A28ED2E1CA2A62EC714 /* Pods-samp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-samp-frameworks.sh"; sourceTree = "<group>"; };
+		FC103DC9F62E782B20CE960386C4669C /* FontAwesome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome-prefix.pch"; sourceTree = "<group>"; };
+		FDF3654FF7A4FAB66AD75BCA495504AA /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2873547DCFC3CAB37C66BCF0A909F826 /* Frameworks */ = {
+		04018250FAF1E099D89913BBB297AA7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F549BC045F10998FB41F30C7430F094 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35BBC139FD6FAE2EE020D295DC245D75 /* Frameworks */ = {
+		3F5C19AA6DDC4F99983FC8AE0BBF4241 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D00AE9CB121C95E695C4AD7746792A /* Foundation.framework in Frameworks */,
+				4C4203DDEB52E114D139793685DCDDCE /* CoreGraphics.framework in Frameworks */,
+				DB5F814A9619C8AB5BF83B9ED89704A5 /* Foundation.framework in Frameworks */,
+				655EDBA2561BEA193160328807BA0249 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F37B918C48453CA377465EA858157F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CB1251A867268A07F26A86433723F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,14 +152,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D226D9B5A63EF1047435DC905A60C667 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				881D423A132E0E4784A0F415ADA55CDA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DEBB1A9B3428CEE8B3A598DC83D3C23B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,36 +160,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6291121CF999A2EE75BE05F8F951899 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05F33B4B13BC0DCE6EE7518267C0F46B /* CoreText.framework in Frameworks */,
-				94AD925604BA6F2EAFE9BA9810C92959 /* Foundation.framework in Frameworks */,
-				2BF115CB201E1A96E4ECF16D9B386017 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05B83E0B0B6138C1B52AA8584AB984DB /* Resources */ = {
+		0AEA7CB8024573E2EB4875574119C0BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF9647C1215A4FD82E00D6EC201DF95D /* FontAwesome.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		09DE53ADB3E104719E76D0DF20FA238A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D026AD9EFD398A7650D11CD00D7C59C2 /* Font-Awesome-Swift.bundle */,
-				6C41F80209CE87C38A2B9E067FA4858C /* Font_Awesome_Swift.framework */,
-				29CF0307ACE3102E778F4C9A9FCC7DCB /* Pods_samp.framework */,
-				8EB70F1BC8452032404B31F036A8AAAE /* Pods_sampTests.framework */,
-				E5BC51780684CCE8F4892439B1B000EA /* Pods_sampUITests.framework */,
-				D10EF0731409955A5F247C69EF9C8F4D /* SkyFloatingLabelTextField.framework */,
+				921186B9EBDEC33BE7B2C38FDECC347C /* FontAwesome.framework */,
+				450478E56BAFB5BE34EF60DD1F734AAE /* Pods_samp.framework */,
+				98EBA8329766AB34DECA4E9D6B726553 /* Pods_sampTests.framework */,
+				F2A736D1C2D0964C4B203CBED278F34A /* Pods_sampUITests.framework */,
+				1E5A6CF722F62A0114F79B6CC981BD4A /* SkyFloatingLabelTextField.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,21 +178,33 @@
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3587588751A8A6B53D9C05B2DC18428D /* iOS */,
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E5155DADF35F4914B486B0ABD998A51 /* SkyFloatingLabelTextField */ = {
+		1392BC3A069C791D0C9A9984C8EC9DDB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				924EE69F582B6ABA49CF77994F888E31 /* SkyFloatingLabelTextField.swift */,
-				A2D58DFB101720BE42FC0C5626DEFAE4 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				96A053A04D9162397C6249F6DB1147AB /* UITextField+fixCaretPosition.swift */,
-				59ACA74DD35811A8652B7938E3025E71 /* Support Files */,
+				34065E9FDD5C9F28C070405416D513AC /* FontAwesome.modulemap */,
+				3072FB9F3BF5D2C2C6087ED0BCDDDDE1 /* FontAwesome.xcconfig */,
+				5FEC12373C8AA61DA97DD1F4B4AE2DC8 /* FontAwesome-dummy.m */,
+				FC103DC9F62E782B20CE960386C4669C /* FontAwesome-prefix.pch */,
+				D3333AAEBB986D0356EFBDCF7D89A8A9 /* FontAwesome-umbrella.h */,
+				D6079884418563D378361478D78EFC46 /* Info.plist */,
 			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome";
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		2F73DAF5A760009C0AD2D5782D59B7A1 /* Pods-sampUITests */ = {
@@ -229,25 +225,23 @@
 			path = "Target Support Files/Pods-sampUITests";
 			sourceTree = "<group>";
 		};
-		3587588751A8A6B53D9C05B2DC18428D /* iOS */ = {
+		46CD0C825C48D7E376949E33B850D5A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				282E317D90744761F406E685BC46589A /* CoreText.framework */,
-				B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */,
-				27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */,
+				47C21EB1D38EC7F4FDC76B3A7FDF5D50 /* FontAwesome.ttf */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		59ACA74DD35811A8652B7938E3025E71 /* Support Files */ = {
+		74BBDD45BD109B3F567AD26BEFDE9C90 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5D9C2AD18ADB55BC441F721BA3D9B1A /* Info.plist */,
-				C686EC2C8897E5E79270F60F2B2ADAD6 /* SkyFloatingLabelTextField.modulemap */,
-				AE8B5B763A4F4D58EE5AC63A7FF934CF /* SkyFloatingLabelTextField.xcconfig */,
-				773B58C96C3FC58146C8594C318D1282 /* SkyFloatingLabelTextField-dummy.m */,
-				3994AB27F281EC4074040ADB224DEF87 /* SkyFloatingLabelTextField-prefix.pch */,
-				19E102B125E6E3FD9A523B718691ACD0 /* SkyFloatingLabelTextField-umbrella.h */,
+				F06C59BBE86349637ABC6FAA47B5B23B /* Info.plist */,
+				EA4DDFF6C0E3D77035DC62423EFE8586 /* SkyFloatingLabelTextField.modulemap */,
+				4BF447FD91CA2423EBBD9B09A4E89158 /* SkyFloatingLabelTextField.xcconfig */,
+				39B0FA1DCF162F5AD631018E2AA84287 /* SkyFloatingLabelTextField-dummy.m */,
+				C0678B233332456142E7CBEAC66D3BAB /* SkyFloatingLabelTextField-prefix.pch */,
+				7D4AB4504B5128D4ED63ED6E99213F71 /* SkyFloatingLabelTextField-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SkyFloatingLabelTextField";
@@ -258,8 +252,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				B4B6D6A1F0C406FEC6291351FEE9D662 /* Pods */,
-				09DE53ADB3E104719E76D0DF20FA238A /* Products */,
+				86C6179E26FC13C171F2A115A6FAB614 /* Pods */,
+				0AEA7CB8024573E2EB4875574119C0BA /* Products */,
 				F43A1D795D1E0E35439E4B1DDB926E16 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -282,39 +276,41 @@
 			path = "Target Support Files/Pods-sampTests";
 			sourceTree = "<group>";
 		};
-		8DDE9276CBBF41335930242AC5AC12A1 /* Support Files */ = {
+		8232A30C7F42CCA976812EE71C919979 /* FontAwesome */ = {
 			isa = PBXGroup;
 			children = (
-				0AB9D02CA1B2916199C6C23B2D4EA213 /* Font-Awesome-Swift.modulemap */,
-				3F88F8AE1C21123022349BCB66E15416 /* Font-Awesome-Swift.xcconfig */,
-				CF2C7F1E3C8E7E96138ACB84657801A1 /* Font-Awesome-Swift-dummy.m */,
-				C19C410A69E6D1800F888600EB4EF1BB /* Font-Awesome-Swift-prefix.pch */,
-				401323DECB6BE6954614ECC57F1BA89F /* Font-Awesome-Swift-umbrella.h */,
-				F7AB3A623B8F324F63562F326121534B /* Info.plist */,
-				B592572D58CC5DD018D2282A2950D5EA /* ResourceBundle-Font-Awesome-Swift-Info.plist */,
+				7AD2B100F1A16397FA3CB3E9314BFCE7 /* FAImageView.h */,
+				646FFCF65FD443000FCA606513D0A0E7 /* FAImageView.m */,
+				4D83FA3E443E1D6F3825089E30745071 /* NSString+FontAwesome.h */,
+				738327C4047ED4974AEF6AAB19C2B58E /* NSString+FontAwesome.m */,
+				FDF3654FF7A4FAB66AD75BCA495504AA /* UIFont+FontAwesome.h */,
+				22FA50B1857D682CBB822AAC87BC52F8 /* UIFont+FontAwesome.m */,
+				46CD0C825C48D7E376949E33B850D5A9 /* Resources */,
+				1392BC3A069C791D0C9A9984C8EC9DDB /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Font-Awesome-Swift";
+			name = FontAwesome;
+			path = FontAwesome;
 			sourceTree = "<group>";
 		};
-		B4B6D6A1F0C406FEC6291351FEE9D662 /* Pods */ = {
+		86C6179E26FC13C171F2A115A6FAB614 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5B8D78B7A3BD04BF7B44721F9288F92 /* Font-Awesome-Swift */,
-				2E5155DADF35F4914B486B0ABD998A51 /* SkyFloatingLabelTextField */,
+				8232A30C7F42CCA976812EE71C919979 /* FontAwesome */,
+				920B2BC88D67330DB5B3A6E3CEFD1C55 /* SkyFloatingLabelTextField */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C5B8D78B7A3BD04BF7B44721F9288F92 /* Font-Awesome-Swift */ = {
+		920B2BC88D67330DB5B3A6E3CEFD1C55 /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				B326C640EA0C895FBA8F34A3CCDDD3AD /* FAIcon.swift */,
-				05B83E0B0B6138C1B52AA8584AB984DB /* Resources */,
-				8DDE9276CBBF41335930242AC5AC12A1 /* Support Files */,
+				DE33AE26722C700D84C2E423A0DFD567 /* SkyFloatingLabelTextField.swift */,
+				66B0A803DD3FB0A1E6D353C83D6E0D25 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				4C7BA02E64D342A1BD66E8E52AA85E8C /* UITextField+fixCaretPosition.swift */,
+				74BBDD45BD109B3F567AD26BEFDE9C90 /* Support Files */,
 			);
-			name = "Font-Awesome-Swift";
-			path = "Font-Awesome-Swift";
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
 		D3DD78655927C3CDE1D759AC7072A679 /* Pods-samp */ = {
@@ -348,35 +344,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		05336CC41F46D187F3000C08FA17DF9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2547431EFFE9EDABF1A88913184833E4 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AE178EEA385FF1A1A7AB558D65BFB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B0B32EB9D09C930D23FADC99BF5DD6 /* FAImageView.h in Headers */,
+				8844BEE31C6E312E40EEA115DBC0D89E /* FontAwesome-umbrella.h in Headers */,
+				3E956B45F194547627970C55AB135610 /* NSString+FontAwesome.h in Headers */,
+				496DAB311543FDD7E60A4C03FF6F9E16 /* UIFont+FontAwesome.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204B45E81BCC7E44403C5263D265F2DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F14400B386487E15086C2666E602BB1 /* Pods-samp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3947E545B777B4DA7292B2D9239ACE36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06033F5F7F5A9F4B4A94EA9E41A99BAA /* Pods-sampTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EAE8DE18B0D8AE89C57BCE2C632CA7D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD703D7ABAB1084D756D7C991DB0D6C5 /* Pods-samp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99768C01AEBDFCD413D68F17B5A904EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5ADBFBB0C6FD91A9A7D17A5E21B24CB /* SkyFloatingLabelTextField-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2873D7F48D5059CA50A79ADE29E0859 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4742149453AD46E590B715335CECF22 /* Font-Awesome-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,41 +390,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25E0BCBFB9431D156DAEA4F13362CF0C /* Pods-samp */ = {
+		035C8BEE64F7B1AB0690DCE0D887D51F /* Pods-samp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B931D7FAF168F40167A2DF23BEA8E3E /* Build configuration list for PBXNativeTarget "Pods-samp" */;
+			buildConfigurationList = 82193F605849AEF84BE44D980D8F67D5 /* Build configuration list for PBXNativeTarget "Pods-samp" */;
 			buildPhases = (
-				4F91AA73254EA4ACA238EF5380282463 /* Sources */,
-				35BBC139FD6FAE2EE020D295DC245D75 /* Frameworks */,
-				6EAE8DE18B0D8AE89C57BCE2C632CA7D /* Headers */,
+				7905084EF265E7440DC21CD2100DEB56 /* Sources */,
+				04018250FAF1E099D89913BBB297AA7E /* Frameworks */,
+				204B45E81BCC7E44403C5263D265F2DC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9826DAA552C65F6514444E3F4E58B748 /* PBXTargetDependency */,
-				BD897FD11C29CF9DAA48CD9B1B34E5F0 /* PBXTargetDependency */,
+				696820ACEC7FA315740F035A2B2B1F47 /* PBXTargetDependency */,
+				6E6B86ACB58602FAB97155DCB815D9C0 /* PBXTargetDependency */,
 			);
 			name = "Pods-samp";
 			productName = "Pods-samp";
-			productReference = 29CF0307ACE3102E778F4C9A9FCC7DCB /* Pods_samp.framework */;
+			productReference = 450478E56BAFB5BE34EF60DD1F734AAE /* Pods_samp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9735AA72928D41DB06EA697E23930C72 /* Font-Awesome-Swift-Font-Awesome-Swift */ = {
+		3277DEFB855507DFBC0D568F10008C04 /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3196888FC4BA2CC8F14DE782D510C49D /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift-Font-Awesome-Swift" */;
+			buildConfigurationList = EECAC37D0B9147468142732B4CD0A199 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
 			buildPhases = (
-				25A6BBD7F5E29C3374417679ED84EAD4 /* Sources */,
-				2873547DCFC3CAB37C66BCF0A909F826 /* Frameworks */,
-				E7CEF4EBC3888DA3128E6CEB79BE5BBD /* Resources */,
+				5106882DA67CD6E67CA05F230A9E04D7 /* Sources */,
+				5F37B918C48453CA377465EA858157F5 /* Frameworks */,
+				05336CC41F46D187F3000C08FA17DF9B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Font-Awesome-Swift-Font-Awesome-Swift";
-			productName = "Font-Awesome-Swift-Font-Awesome-Swift";
-			productReference = D026AD9EFD398A7650D11CD00D7C59C2 /* Font-Awesome-Swift.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 1E5A6CF722F62A0114F79B6CC981BD4A /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C7D108C64EF0FC5CB01BC39965AC324 /* FontAwesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F29800F6AA5A733738C7E545974E41 /* Build configuration list for PBXNativeTarget "FontAwesome" */;
+			buildPhases = (
+				3E7D2F4DEA0051C95C33414F0C426E1F /* Sources */,
+				3F5C19AA6DDC4F99983FC8AE0BBF4241 /* Frameworks */,
+				17AE178EEA385FF1A1A7AB558D65BFB8 /* Headers */,
+				9836B4E7B5625E267123056FC51C1BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesome;
+			productName = FontAwesome;
+			productReference = 921186B9EBDEC33BE7B2C38FDECC347C /* FontAwesome.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		992A0884BB4FF55DE183BABC4CA31176 /* Pods-sampTests */ = {
 			isa = PBXNativeTarget;
@@ -441,26 +458,7 @@
 			);
 			name = "Pods-sampTests";
 			productName = "Pods-sampTests";
-			productReference = 8EB70F1BC8452032404B31F036A8AAAE /* Pods_sampTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BA453546C51032641C49CACBC22725EE /* Font-Awesome-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C44699AC6ECDFB00A9014C5FB5C7E1E8 /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift" */;
-			buildPhases = (
-				D88D19D75A2C129F5E1811B75B9D7702 /* Sources */,
-				F6291121CF999A2EE75BE05F8F951899 /* Frameworks */,
-				9081D6494BFC478079119EBA113E216F /* Resources */,
-				C2873D7F48D5059CA50A79ADE29E0859 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84F4642A21AF7C7C12FE5C7959D975B0 /* PBXTargetDependency */,
-			);
-			name = "Font-Awesome-Swift";
-			productName = "Font-Awesome-Swift";
-			productReference = 6C41F80209CE87C38A2B9E067FA4858C /* Font_Awesome_Swift.framework */;
+			productReference = 98EBA8329766AB34DECA4E9D6B726553 /* Pods_sampTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C060632326782CB53C13EB0196D25ABB /* Pods-sampUITests */ = {
@@ -477,24 +475,7 @@
 			);
 			name = "Pods-sampUITests";
 			productName = "Pods-sampUITests";
-			productReference = E5BC51780684CCE8F4892439B1B000EA /* Pods_sampUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F1B99AE1D4B01D8F3F4F47C79E2426A1 /* SkyFloatingLabelTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3671A4834E1060ED2C94A127EF255989 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
-			buildPhases = (
-				4F0402199373FE67E7FDA74BD556C409 /* Sources */,
-				D226D9B5A63EF1047435DC905A60C667 /* Frameworks */,
-				99768C01AEBDFCD413D68F17B5A904EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SkyFloatingLabelTextField;
-			productName = SkyFloatingLabelTextField;
-			productReference = D10EF0731409955A5F247C69EF9C8F4D /* SkyFloatingLabelTextField.framework */;
+			productReference = F2A736D1C2D0964C4B203CBED278F34A /* Pods_sampUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -514,63 +495,58 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 09DE53ADB3E104719E76D0DF20FA238A /* Products */;
+			productRefGroup = 0AEA7CB8024573E2EB4875574119C0BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA453546C51032641C49CACBC22725EE /* Font-Awesome-Swift */,
-				9735AA72928D41DB06EA697E23930C72 /* Font-Awesome-Swift-Font-Awesome-Swift */,
-				25E0BCBFB9431D156DAEA4F13362CF0C /* Pods-samp */,
+				5C7D108C64EF0FC5CB01BC39965AC324 /* FontAwesome */,
+				035C8BEE64F7B1AB0690DCE0D887D51F /* Pods-samp */,
 				992A0884BB4FF55DE183BABC4CA31176 /* Pods-sampTests */,
 				C060632326782CB53C13EB0196D25ABB /* Pods-sampUITests */,
-				F1B99AE1D4B01D8F3F4F47C79E2426A1 /* SkyFloatingLabelTextField */,
+				3277DEFB855507DFBC0D568F10008C04 /* SkyFloatingLabelTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9081D6494BFC478079119EBA113E216F /* Resources */ = {
+		9836B4E7B5625E267123056FC51C1BA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				862F6576D6B64D137E1F6E464F9A906E /* Font-Awesome-Swift.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7CEF4EBC3888DA3128E6CEB79BE5BBD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC24B7BFE64B154BB0EDB1E294D4D9DC /* FontAwesome.ttf in Resources */,
+				048CC9B93DA5736FF23C9D6D08B366ED /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25A6BBD7F5E29C3374417679ED84EAD4 /* Sources */ = {
+		3E7D2F4DEA0051C95C33414F0C426E1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A9F81AC88094899B1F11B4A0D640C /* FAImageView.m in Sources */,
+				71E34B3C89532152ABFB07EF187C9877 /* FontAwesome-dummy.m in Sources */,
+				2F284D0F8424E4202893FD57E5F33C9B /* NSString+FontAwesome.m in Sources */,
+				ECD70F8EBC1C1711D58CCE4AEED1CB08 /* UIFont+FontAwesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F0402199373FE67E7FDA74BD556C409 /* Sources */ = {
+		5106882DA67CD6E67CA05F230A9E04D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22256366F34CB5CBF58224FB43E2362C /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				4ED3B0D447F982BE0C88A7EFFB8C5DB1 /* SkyFloatingLabelTextField.swift in Sources */,
-				13FF943D4C5955649F7214A6C77C2043 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				CADF2E4CB68C0ABD318A2A4D3C067EFF /* UITextField+fixCaretPosition.swift in Sources */,
+				CA759E60F374F6D403B8CA022855C72D /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				D746F3C665D4929805F03D6AFABD7B5D /* SkyFloatingLabelTextField.swift in Sources */,
+				E51FF456C03E98D12BF7E45D1E4D9009 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				3D9A8C83DFBDD9F7E0F2CC5925D049A6 /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F91AA73254EA4ACA238EF5380282463 /* Sources */ = {
+		7905084EF265E7440DC21CD2100DEB56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C6C762C8B48FA3A8C00EE1E938D79C /* Pods-samp-dummy.m in Sources */,
+				576CF8447FA6CF42DF112C183AA9EBD1 /* Pods-samp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,15 +555,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				70671BA98413D50EDAD3B150E0DC32E4 /* Pods-sampUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D88D19D75A2C129F5E1811B75B9D7702 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207D725533423D55A24FA53494476090 /* FAIcon.swift in Sources */,
-				E7E94390A1CF40ED6C3C620B0BE8B0A0 /* Font-Awesome-Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,27 +569,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84F4642A21AF7C7C12FE5C7959D975B0 /* PBXTargetDependency */ = {
+		696820ACEC7FA315740F035A2B2B1F47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Font-Awesome-Swift-Font-Awesome-Swift";
-			target = 9735AA72928D41DB06EA697E23930C72 /* Font-Awesome-Swift-Font-Awesome-Swift */;
-			targetProxy = 682BD0987EB17880E3025EFA1CCEBF82 /* PBXContainerItemProxy */;
+			name = FontAwesome;
+			target = 5C7D108C64EF0FC5CB01BC39965AC324 /* FontAwesome */;
+			targetProxy = 53EDFB49BF95C1BD993C61F6764DF3D3 /* PBXContainerItemProxy */;
 		};
-		9826DAA552C65F6514444E3F4E58B748 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Font-Awesome-Swift";
-			target = BA453546C51032641C49CACBC22725EE /* Font-Awesome-Swift */;
-			targetProxy = CDC2C4A234BA03B3E6BDF9B2DBC42A2B /* PBXContainerItemProxy */;
-		};
-		BD897FD11C29CF9DAA48CD9B1B34E5F0 /* PBXTargetDependency */ = {
+		6E6B86ACB58602FAB97155DCB815D9C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
-			target = F1B99AE1D4B01D8F3F4F47C79E2426A1 /* SkyFloatingLabelTextField */;
-			targetProxy = 84BE887D7E101D5E212D1539EAF2C29A /* PBXContainerItemProxy */;
+			target = 3277DEFB855507DFBC0D568F10008C04 /* SkyFloatingLabelTextField */;
+			targetProxy = 1EC6FFFFADB6F21D440D9DEDD3670A2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		24CEA3A96FF08948BD54A904F297E244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF447FD91CA2423EBBD9B09A4E89158 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25E6D9EBE477C957A4CE1CCFFA908FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B263BA956925CD8E659F21F66FC7E8B2 /* Pods-sampTests.debug.xcconfig */;
@@ -658,15 +651,51 @@
 			};
 			name = Debug;
 		};
-		52D72F22DF892F4FE808574F716A30FC /* Release */ = {
+		33FBDB3AEE1BC89433EE58A2364F8A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8B5B763A4F4D58EE5AC63A7FF934CF /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = E648D44343282CD2EEF5D0AB5650A321 /* Pods-samp.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-samp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-samp/Pods-samp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_samp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34C5CBC3C7D0E8BDAC845716EED3F0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF447FD91CA2423EBBD9B09A4E89158 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -679,8 +708,41 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E3C2A27EF1A2DAE658FD9CF0022A0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3072FB9F3BF5D2C2C6087ED0BCDDDDE1 /* FontAwesome.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome/FontAwesome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome/FontAwesome.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesome;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -730,7 +792,7 @@
 			};
 			name = Release;
 		};
-		73F6BCD5D2CD3371539E4EFCCB17FD88 /* Release */ = {
+		7673853E5F4BD178C1A71D520E7240BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31076D8088023601A785C086A09B6DA8 /* Pods-samp.release.xcconfig */;
 			buildSettings = {
@@ -800,26 +862,9 @@
 			};
 			name = Debug;
 		};
-		8FEBF703E1D0A71A402EEB1A7AB85212 /* Debug */ = {
+		CA94609F7498E6484FFAB38EF0C0CADA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F88F8AE1C21123022349BCB66E15416 /* Font-Awesome-Swift.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Font-Awesome-Swift";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/ResourceBundle-Font-Awesome-Swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = "Font-Awesome-Swift";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A0DC6E666976C5A9206DD4E729D8E8BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8B5B763A4F4D58EE5AC63A7FF934CF /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = 3072FB9F3BF5D2C2C6087ED0BCDDDDE1 /* FontAwesome.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -832,86 +877,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome/FontAwesome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome/FontAwesome.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = FontAwesome;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A13A76A000B89CED60886311E9E601D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E648D44343282CD2EEF5D0AB5650A321 /* Pods-samp.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-samp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-samp/Pods-samp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_samp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AAE4B714984E1DE3070F5A17B4945C27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F88F8AE1C21123022349BCB66E15416 /* Font-Awesome-Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Font_Awesome_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -963,23 +938,6 @@
 			};
 			name = Debug;
 		};
-		E8D5556FCC4AC3195E8C139BCA8BE29E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F88F8AE1C21123022349BCB66E15416 /* Font-Awesome-Swift.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Font-Awesome-Swift";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/ResourceBundle-Font-Awesome-Swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = "Font-Awesome-Swift";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		EB06B05E0D3C08B9D4A86CF57032EF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1A84AB95D28B97EFF12A5334A7DACF2 /* Pods-sampUITests.release.xcconfig */;
@@ -1009,38 +967,6 @@
 				PRODUCT_NAME = Pods_sampUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EBC842B877A9A93E281CA742403BE7F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F88F8AE1C21123022349BCB66E15416 /* Font-Awesome-Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Font_Awesome_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1085,38 +1011,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23F29800F6AA5A733738C7E545974E41 /* Build configuration list for PBXNativeTarget "FontAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA94609F7498E6484FFAB38EF0C0CADA /* Debug */,
+				4E3C2A27EF1A2DAE658FD9CF0022A0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
 				673254EEAF0B5BF4596080C749645884 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3196888FC4BA2CC8F14DE782D510C49D /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift-Font-Awesome-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FEBF703E1D0A71A402EEB1A7AB85212 /* Debug */,
-				E8D5556FCC4AC3195E8C139BCA8BE29E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3671A4834E1060ED2C94A127EF255989 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0DC6E666976C5A9206DD4E729D8E8BB /* Debug */,
-				52D72F22DF892F4FE808574F716A30FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B931D7FAF168F40167A2DF23BEA8E3E /* Build configuration list for PBXNativeTarget "Pods-samp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A13A76A000B89CED60886311E9E601D4 /* Debug */,
-				73F6BCD5D2CD3371539E4EFCCB17FD88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1130,11 +1038,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C44699AC6ECDFB00A9014C5FB5C7E1E8 /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift" */ = {
+		82193F605849AEF84BE44D980D8F67D5 /* Build configuration list for PBXNativeTarget "Pods-samp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAE4B714984E1DE3070F5A17B4945C27 /* Debug */,
-				EBC842B877A9A93E281CA742403BE7F7 /* Release */,
+				33FBDB3AEE1BC89433EE58A2364F8A22 /* Debug */,
+				7673853E5F4BD178C1A71D520E7240BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1144,6 +1052,15 @@
 			buildConfigurations = (
 				25E6D9EBE477C957A4CE1CCFFA908FAA /* Debug */,
 				EDCC35ED0296DC8CA316D194EFBD7675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECAC37D0B9147468142732B4CD0A199 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C5CBC3C7D0E8BDAC845716EED3F0BA /* Debug */,
+				24CEA3A96FF08948BD54A904F297E244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

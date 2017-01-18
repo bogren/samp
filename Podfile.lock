@@ -1,15 +1,15 @@
 PODS:
-  - FontAwesome (4.5.0)
+  - FontAwesome.swift (1.0.0)
   - SkyFloatingLabelTextField (2.0.0)
 
 DEPENDENCIES:
-  - FontAwesome (~> 4.5)
+  - FontAwesome.swift (~> 1.0.0)
   - SkyFloatingLabelTextField (~> 2.0.0)
 
 SPEC CHECKSUMS:
-  FontAwesome: dd8c48bf965e771309d8af17c4d8579217b3e756
+  FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
   SkyFloatingLabelTextField: a81a0eaed2785d1599f11484c6ebc1c4eb5d1228
 
-PODFILE CHECKSUM: 623dde8bc1a91c57fef769ca41a4dbec429bcdab
+PODFILE CHECKSUM: d0a5ce5ef9a339acfac4433a31f9ec2f5653dd7e
 
 COCOAPODS: 1.1.1
